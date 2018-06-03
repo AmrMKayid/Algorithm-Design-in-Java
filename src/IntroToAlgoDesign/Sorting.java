@@ -2,13 +2,14 @@ package IntroToAlgoDesign;
 
 public class Sorting {
 
-
     public static void main(String[] args) {
 
         int arr[] = {9, 6, 7, 5, 4, 3, 1, 0};
+        System.out.print("Before Sorting:\t\t\t");
         display(arr);
 
         insertionSort(arr);
+        System.out.print("After Insertion Sort:\t");
         display(arr);
     }
 
